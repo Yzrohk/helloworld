@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Page d'inspiration du projet Hello World">
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@leonardisebastien">
-    <meta name="twitter:creator" content="@leonardisebastien">
-    <meta name="twitter:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <meta name="twitter:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image" content="#">
-
-    <!-- Open Graph data -->
-    <meta property="og:site_name" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <meta property="og:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <meta property="og:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:image" content="#">
-    <meta property="og:image:width" content="1800">
-    <meta property="og:image:height" content="945">
-
-    <title>Hello World Sébastien Leonardi - DWT - HEAJ - Inspiration</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <script src="assets/js/darkmode.js" defer></script>
-    <script src="assets/js/burgermenu.js" defer></script>
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Page de crédits des projets Hello World">
+    
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@leonardisebastien">
+        <meta name="twitter:creator" content="@leonardisebastien">
+        <meta name="twitter:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page des projets">
+        <meta name="twitter:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page des projets">
+        <meta name="twitter:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
+    
+        <!-- Open Graph data -->
+        <meta property="og:site_name" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page des projets">
+        <meta property="og:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page des projets">
+        <meta property="og:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page des projets">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://sebastien-leonardi.be">
+        <meta property="og:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
+        <meta property="og:image:width" content="1800">
+        <meta property="og:image:height" content="945">
+    
+        <title>Hello World Sébastien Leonardi - DWT - HEAJ - UI-Kits</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <script src="assets/js/darkmode.js" defer></script>
+        <script src="assets/js/burgermenu.js" defer></script>
+    
+    </head>
 <body>
 
     <header class="header">
@@ -50,13 +48,13 @@
             <nav class="menu">
                 <ul class="menu__liste">
                     <li class="menu__el">
-                        <a href="index.html">Accueil</a>
+                        <a class="el__lien" href="index.html">Accueil</a>
                     </li>
                     <li class="menu__el">
-                        <a href="inspiration.html">Inspirations</a>
+                        <a class="el__lien" href="inspiration.html">Inspirations</a>
                     </li>
                     <li class="menu__el menu__el--active">
-                        <a href="projets.html">Projets</a>
+                        <a class="el__lien" href="projets.html">Projets</a>
                     </li>
                 </ul>
                 <button class="btn__nav btn__darkmode">
@@ -71,8 +69,30 @@
         </div>
     </header>
 
-    <main class="main main--inspirations">
-        <h1>A FAIRE</h1>
+    <main class="main main--projets">
+        <h1 class="title title--big">Mes projets</h1>
+        <ul class="projets">
+            <li class="projet">
+                <h2 class="title title--medium">Hello world</h2>
+                <p class="redaction">Le projet Hello World est le premier projet sur lequel nous avons travaillé.</p>
+                <a class="redirection" href="http://sebastien-leonardi.be">
+                    <span class="redirection__txt">Voir le projet</span>
+                    <svg class="redirection__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg>
+                </a>
+            </li>
+            <li class="projet">
+                <h2 class="title title--medium">IOLCE</h2>
+                <p class="redaction">Le projet IOLCE est le second sur lequel nous avons travaillé. Il est basé sur le visionnage d'une conférence par groupe.</p>
+                <a class="redirection" href="http://sebastien-leonardi.be/projets/iolce/">
+                    <span class="redirection__txt">Voir le projet</span>
+                    <svg class="redirection__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg>
+                </a>
+            </li>
+            <li class="projet">
+                <h2 class="title title--medium">Autres</h2>
+                <p class="redaction">D'autres projets arriveront certainement plus tard !</p>
+            </li>
+        </ul>
     </main>
 
     <footer class="footer">
@@ -115,8 +135,8 @@
                 </div>
                 <div class="liens__el">
                     <ul class="subNav">
-                        <li class="subNav__el"> <a href="#">UI-kit</a></li>
-                        <li class="subNav__el"> <a href="#">Crédits</a></li>
+                        <li class="subNav__el"> <a href="ui-kit.html">UI-kit</a></li>
+                        <li class="subNav__el"> <a href="credits.html">Crédits</a></li>
                     </ul>
                 </div>
             </div>

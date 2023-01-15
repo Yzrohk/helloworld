@@ -12,23 +12,21 @@
     <meta name="twitter:creator" content="@leonardisebastien">
     <meta name="twitter:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
     <meta name="twitter:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
-    <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image" content="#">
+    <meta name="twitter:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
 
     <!-- Open Graph data -->
     <meta property="og:site_name" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
     <meta property="og:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
     <meta property="og:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page d'inspirations">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:image" content="#">
+    <meta property="og:url" content="http://sebastien-leonardi.be">
+    <meta property="og:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
     <meta property="og:image:width" content="1800">
     <meta property="og:image:height" content="945">
 
     <title>Hello World Sébastien Leonardi - DWT - HEAJ - Inspiration</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -50,13 +48,13 @@
             <nav class="menu">
                 <ul class="menu__liste">
                     <li class="menu__el">
-                        <a href="index.html">Accueil</a>
+                        <a class="el__lien" href="index.html">Accueil</a>
                     </li>
-                    <li class="menu__el menu__el--active">
-                        <a href="inspiration.html">Inspirations</a>
+                    <li class="menu__el  menu__el--active">
+                        <a class="el__lien" href="inspiration.html">Inspirations</a>
                     </li>
                     <li class="menu__el">
-                        <a href="projets.html">Projets</a>
+                        <a class="el__lien" href="projets.html">Projets</a>
                     </li>
                 </ul>
                 <button class="btn__nav btn__darkmode">
@@ -73,13 +71,15 @@
 
     <main class="main main--inspirations">
         <h1 class="title title--big">Inspirations</h1>
-        <section class="redaction redaction--ftp">
+
+        <section class="section--ftp">
             <h2 class="title title--medium">What is FTP?</h2>
-            <div class="div__redaction">
-                <p class="redaction redaction--ftp"> Le FTP, File Transfert Protocole, permet de transférer des fichiers de son ordinateur vers un serveur, par exemple. 
-                    Lorsqu'on consulte un site internet, ce sont des fichiers qui ont probablement été transférés via FTP, puisque celui-ci est un des protocoles les plus anciens et utilisés. 
-                    Il suffit d'un logiciel comme FileZilla et d'un serveur hébergé pour transférer des fichiers. FTP ne crypte pas les fichiers contrairement à FTPs.
+            <div class="div__redaction ">
+                <p class="redaction"> Le <b>FTP</b>, <i>File Transfert Protocole</i>, permet de transférer des fichiers de son <b>ordinateur vers un serveur</b>, par exemple. 
+                    Lorsqu'on consulte un site internet, ce sont des fichiers qui ont probablement été transférés via <b>FTP</b>, puisque celui-ci est un des <i>protocoles les plus anciens et utilisés</i>. 
+                    Il suffit d'un logiciel comme <b>FileZilla</b> et d'un serveur hébergé pour transférer des fichiers. FTP ne crypte pas les fichiers contrairement à FTPs.
                 </p>
+                <img class="illustration__big illu__ftp" src="assets/images/ftp.png" alt="Illustration réprésentant le FTP" srcset="assets/images/ftp.png, assets/images/ftp@2x.png 2x">
             </div>
             <a class="redirection" href="https://www.digitaltrends.com/computing/what-is-ftp-and-how-do-i-use-it/">
                 <span class="redirection__txt">Lire l'article</span>
@@ -87,12 +87,15 @@
             </a>
         </section>
         
-        <section class="redaction redaction--script">
+        <section class="section--script">
             <h2 class="title title--medium">L'élément de script</h2>
-            <p> La balise "script" permet comme son nom l'indique, d'utiliser des scripts sur sa page internet, notamment du JavaScript mais pas que. 
-                En l'occurrence, on utilisera pour ce cours-ci, le JavaScript. Elle possède tout un tas d'attributs utiles comme defer, que nous devrons tout le temps utiliser, qui permet d'éxécuter le script après avoir chargé la page internet. 
+            <div class="div__redaction">
+                <p class="redaction"> La balise "<b>script</b>" permet comme son nom l'indique, d'utiliser des scripts sur sa page internet, notamment du <b>JavaScript</b> mais pas que. 
+                En l'occurrence, on utilisera pour ce cours-ci, le <b>JavaScript</b>. Elle possède tout un tas d'<i>attributs utiles comme defer</i>, que nous devrons tout le temps utiliser, qui permet d'<i>éxécuter le script après avoir chargé la page internet</i>   . 
                 L'attribut src permet de définir l'url d'un script externe.
-            </p>
+                </p>
+                <img class="illustration__big illu__script" src="assets/images/javascript.png" alt="Illustration réprésentant le logo JavaScript" srcset="assets/images/javascript.png, assets/images/javascript@2x.png 2x">
+            </div>
             <a class="redirection" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/script">
                 <span class="redirection__txt">Lire l'article</span>
                 <svg class="redirection__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg>
@@ -140,8 +143,8 @@
                 </div>
                 <div class="liens__el">
                     <ul class="subNav">
-                        <li class="subNav__el"> <a href="#">UI-kit</a></li>
-                        <li class="subNav__el"> <a href="#">Crédits</a></li>
+                        <li class="subNav__el"> <a href="ui-kit.html">UI-kit</a></li>
+                        <li class="subNav__el"> <a href="credits.html">Crédits</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page de l'ui-kit du projet Hello World">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@leonardisebastien">
+    <meta name="twitter:creator" content="@leonardisebastien">
+    <meta name="twitter:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page de l'ui-kit">
+    <meta name="twitter:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page de l'ui-kit">
+    <meta name="twitter:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page de l'ui-kit">
+    <meta property="og:title" content="Projet Hello World - Sébastien Leonardi - DWT - HEAJ - Page de l'ui-kit">
+    <meta property="og:description" content="Site web du projet Hello World par Sébastien Leonardi - DWT - HEAJ - Page de l'ui-kit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://sebastien-leonardi.be">
+    <meta property="og:image" content="http://sebastien-leonardi.be/assets/images/avatar.jpg">
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="945">
+
+    <title>Hello World Sébastien Leonardi - DWT - HEAJ - UI-Kits</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/darkmode.js" defer></script>
+    <script src="assets/js/burgermenu.js" defer></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__el">
+            <a class="avatar" href="index.html">
+                <img class="avatar__img" src="assets/images/avatarNav.png"
+                    srcset="assets/images/avatarNav.png, assets/images/avatarNav@2x.png 2x"
+                    alt="Avatar de sébastien en tant que lien">
+            </a>
+
+            <nav class="menu">
+                <ul class="menu__liste">
+                    <li class="menu__el">
+                        <a class="el__lien" href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu__el">
+                        <a class="el__lien" href="inspiration.html">Inspirations</a>
+                    </li>
+                    <li class="menu__el">
+                        <a class="el__lien" href="projets.html">Projets</a>
+                    </li>
+                </ul>
+                <button class="btn__nav btn__darkmode">
+                    <svg class="btn__svg svg__darkmode svg--active" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 9c1.654 0 3 1.346 3 3s-1.346 3-3 3v-6zm0-2c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm-4.184-.599l-3.593-3.594-1.415 1.414 3.595 3.595c.401-.537.876-1.013 1.413-1.415zm4.184-1.401c.34 0 .672.033 1 .08v-5.08h-2v5.08c.328-.047.66-.08 1-.08zm5.598 2.815l3.595-3.595-1.414-1.414-3.595 3.595c.537.402 1.012.878 1.414 1.414zm-12.598 4.185c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm-9.784-1.414l-3.593 3.593 1.414 1.414 3.593-3.593c-.536-.402-1.011-.877-1.414-1.414zm12.519-5.184c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-6.92 8c-.34 0-.672-.033-1-.08v5.08h2v-5.08c-.328.047-.66.08-1 .08z"/></svg>
+                    <svg class="btn__svg svg__darkmode svg--inactive" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.402 7.815l-3.594-3.594 1.415-1.414 3.594 3.594c-.538.402-1.013.878-1.415 1.414zm14.79-3.594l-16.969 16.97-1.414-1.414 5.035-5.036c-.528-.785-.844-1.721-.844-2.741 0-2.762 2.238-5 5-5 1.02 0 1.956.316 2.741.844l5.037-5.038 1.414 1.415zm-11.891 9.064l3.984-3.984c-.389-.19-.823-.301-1.285-.301-1.654 0-3 1.346-3 3 0 .462.111.896.301 1.285zm3.699-8.205v-5.08h-2v5.08c.328-.047.66-.08 1-.08s.672.033 1 .08zm-8 6.92c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm.629-6.878l-1.875 1.875c-.237 1.178-1.167 2.107-2.345 2.345l-1.874 1.874c.412.109.835.186 1.28.186 2.762 0 5-2.238 5-5 0-.445-.077-.869-.186-1.28zm2.106.28c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-7.92 7.92v5.08h2v-5.08c-.328.047-.66.08-1 .08s-.672-.033-1-.08z"/></svg>
+                </button>
+                <button class="btn__nav btn__burgermenu">
+                    <svg class="btn__svg svg__burgermenu svg--active" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.5 11c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 4v-1.5c0-.265-.235-.5-.5-.5s-.5.235-.5.5v1.5h-1.5c-.265 0-.5.235-.5.5s.235.5.5.5h1.5v1.5c0 .265.235.5.5.5s.5-.235.5-.5c0-.592 0-1.5 0-1.5h1.5c.265 0 .5-.235.5-.5s-.235-.5-.5-.5c-.592 0-1.5 0-1.5 0zm-6.479 1c.043.522.153 1.025.321 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm1.106-4c-.328.456-.594.96-.785 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm7.373-3.25c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+                    <svg class="btn__svg svg__burgermenu svg--inactive svg--menuactive" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.495 11c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5c-2.483 0-4.5-2.016-4.5-4.5s2.017-4.5 4.5-4.5zm-5.979 5c.043.522.153 1.025.321 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm6.686-.5s.642-.642 1.061-1.061c.188-.187.188-.519 0-.707-.188-.187-.52-.187-.707 0-.419.419-1.061 1.061-1.061 1.061s-.641-.642-1.06-1.061c-.188-.187-.52-.187-.707 0-.188.188-.188.52 0 .707.418.419 1.06 1.061 1.06 1.061s-.642.642-1.06 1.061c-.188.187-.188.519 0 .707.187.187.519.187.707 0 .419-.419 1.06-1.061 1.06-1.061s.642.642 1.061 1.061c.187.187.519.187.707 0 .188-.188.188-.52 0-.707-.419-.419-1.061-1.061-1.061-1.061zm-5.579-3.5c-.329.456-.595.96-.786 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm7.372-3.25c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main main--uikit">
+        <h1 class="title title--big">UI-Kit</h1>
+        <section class="section--nav">
+            <h2>Contenu de la navigation</h2>
+            <ul class="uikit__liste uikit__liste--normal">
+                <li class="liste--el">
+                    <a class="el__lien--uikit" href="#">Lien normal</a>
+                </li>
+                <li class="liste--el">
+                    <a  class="el__lien--uikit el__lien--hover" href="#">Lien:hover</a>
+                </li>
+                <li class="liste--el">
+                    <a  class="el__lien--uikit el__lien--active" href="#">Lien actif</a>
+                </li>
+            </ul>
+            <ul class="uikit__liste uikit__liste--burgermenu">
+                <li class="liste--el el--burgermenu">
+                    <a  class="el__lien--uikit" href="#">Lien normal BM</a>
+                </li>
+                <li class="liste--el el--burgermenu">
+                    <a  class="el__lien--uikit  el__lien--hover" href="#">Lien:hover  BM</a>
+                </li>
+                <li class="liste--el el--burgermenu">
+                    <a  class="el__lien--uikit el__lien--active" href="#">Lien actif  BM</a>
+                </li>
+            </ul>
+            <button class="uikit__bouton">
+                <svg class="uikit__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 9c1.654 0 3 1.346 3 3s-1.346 3-3 3v-6zm0-2c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm-4.184-.599l-3.593-3.594-1.415 1.414 3.595 3.595c.401-.537.876-1.013 1.413-1.415zm4.184-1.401c.34 0 .672.033 1 .08v-5.08h-2v5.08c.328-.047.66-.08 1-.08zm5.598 2.815l3.595-3.595-1.414-1.414-3.595 3.595c.537.402 1.012.878 1.414 1.414zm-12.598 4.185c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm-9.784-1.414l-3.593 3.593 1.414 1.414 3.593-3.593c-.536-.402-1.011-.877-1.414-1.414zm12.519-5.184c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-6.92 8c-.34 0-.672-.033-1-.08v5.08h2v-5.08c-.328.047-.66.08-1 .08z"/></svg>
+            </button>
+            <button class="uikit__bouton">
+                <svg class="uikit__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.402 7.815l-3.594-3.594 1.415-1.414 3.594 3.594c-.538.402-1.013.878-1.415 1.414zm14.79-3.594l-16.969 16.97-1.414-1.414 5.035-5.036c-.528-.785-.844-1.721-.844-2.741 0-2.762 2.238-5 5-5 1.02 0 1.956.316 2.741.844l5.037-5.038 1.414 1.415zm-11.891 9.064l3.984-3.984c-.389-.19-.823-.301-1.285-.301-1.654 0-3 1.346-3 3 0 .462.111.896.301 1.285zm3.699-8.205v-5.08h-2v5.08c.328-.047.66-.08 1-.08s.672.033 1 .08zm-8 6.92c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm.629-6.878l-1.875 1.875c-.237 1.178-1.167 2.107-2.345 2.345l-1.874 1.874c.412.109.835.186 1.28.186 2.762 0 5-2.238 5-5 0-.445-.077-.869-.186-1.28zm2.106.28c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-7.92 7.92v5.08h2v-5.08c-.328.047-.66.08-1 .08s-.672-.033-1-.08z"/></svg>
+            </button>
+            <button class="uikit__bouton">
+                <svg class="uikit__svg" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.5 11c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 4v-1.5c0-.265-.235-.5-.5-.5s-.5.235-.5.5v1.5h-1.5c-.265 0-.5.235-.5.5s.235.5.5.5h1.5v1.5c0 .265.235.5.5.5s.5-.235.5-.5c0-.592 0-1.5 0-1.5h1.5c.265 0 .5-.235.5-.5s-.235-.5-.5-.5c-.592 0-1.5 0-1.5 0zm-6.479 1c.043.522.153 1.025.321 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm1.106-4c-.328.456-.594.96-.785 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm7.373-3.25c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+            </button>
+            <button class="uikit__bouton">
+                <svg class="uikit__svg" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.495 11c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5c-2.483 0-4.5-2.016-4.5-4.5s2.017-4.5 4.5-4.5zm-5.979 5c.043.522.153 1.025.321 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm6.686-.5s.642-.642 1.061-1.061c.188-.187.188-.519 0-.707-.188-.187-.52-.187-.707 0-.419.419-1.061 1.061-1.061 1.061s-.641-.642-1.06-1.061c-.188-.187-.52-.187-.707 0-.188.188-.188.52 0 .707.418.419 1.06 1.061 1.06 1.061s-.642.642-1.06 1.061c-.188.187-.188.519 0 .707.187.187.519.187.707 0 .419-.419 1.06-1.061 1.06-1.061s.642.642 1.061 1.061c.187.187.519.187.707 0 .188-.188.188-.52 0-.707-.419-.419-1.061-1.061-1.061-1.061zm-5.579-3.5c-.329.456-.595.96-.786 1.5h-9.092c-.414 0-.75-.336-.75-.75s.336-.75.75-.75zm7.372-3.25c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75zm0-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+            </button>
+        </section>
+
+        <section class="section--main">
+            <h2>Contenu des mains</h2>
+            <div class="uikit__title--h1">Titre h1</div>
+            <div class="uikit__title--h2">Titre h2</div>
+            <p class="uikit__paragraphe">Paragraphe : Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque maxime sapiente maiores rerum expedita consequuntur et aspernatur perspiciatis voluptatibus explicabo exercitationem nisi error quibusdam provident, aperiam aliquam illo corporis.</p>
+            <button class="uikit__btn">Bouton</button>
+            <button class="uikit__btn--hover">Bouton:hover</button>
+
+            <ul class="uikit__liste--perso">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+        </section>
+
+        <section class="section--colors">
+            <h2>Couleurs</h2>
+            <div class="contenu__colors">
+                <div class="square"><p class="color">#e0f4f5</p></div>
+                <div class="square"><p class="color">#033540</p></div>
+                <div class="square"><p class="color">#015366</p></div>
+                <div class="square"><p class="color">#A7D1D2</p></div>
+                <div class="square"><p class="color">#8eb4b4</p></div>
+                <div class="square"><p class="color">#90acad</p></div>
+                <div class="square"><p class="color">#cbeaeb</p></div>
+                <div class="square"><p class="color">#001418</p></div>
+                <div class="square"><p class="color">#184e58</p></div>
+            </div>
+        </section>
+
+        <section class="section--footer">
+            <h2>Contenu du footer</h2>
+            <div class="contenu__footer">
+                <svg class="footer__elements" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24">
+                <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+                <svg  class="footer__elements" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24">
+                <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                </svg>
+                <svg  class="footer__elements" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                </svg>
+                <a  class="footer__elements" href="ui-kit.html">Lien sous-nav</a>
+                <small class="uikit__credits footer__elements">
+                    <a href="https://dwt.heaj.be/">Crédit</a>
+                </small>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__el">
+            <div class="footer__liens">
+                <div class="liens__el">
+                    <ul class="subNav">
+                        <li class="reseaux__el">
+                            <a href="https://www.instagram.com/sebastien_dwt/">
+                                <span class="reseaux__txt">Instagram</span>
+                                <svg class="reseaux__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+                        </li>
+
+
+                        <li class="reseaux__el">
+                            <a href="https://twitter.com/sebastien_dwt">
+                                <span class="reseaux__txt">Twitter</span>
+                                <svg class="reseaux__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="reseaux__el"><a class="contact" href="mailto:sebastien.leonardi@student.heaj.be">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                                </svg>
+                                <span class="contact__txt">Me contacter par email</span>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="liens__el">
+                    <ul class="subNav">
+                        <li class="subNav__el"> <a href="ui-kit.html">UI-kit</a></li>
+                        <li class="subNav__el"> <a href="credits.html">Crédits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__small">
+                <small class="credits">
+                    <a href="https://dwt.heaj.be/">DWT</a> - <a href="http://sebastien-leonardi.be">Sébastien Leonardi</a>&ensp;©
+                    2022
+                </small>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
